@@ -1,5 +1,10 @@
 # SpamShield
 
+[**Visit SpamShield**](https://spamshield-52b58.web.app/)
+
+SpamShield is a cloud-based spam detection platform designed to help users securely and efficiently identify malicious email messages.  
+It uses machine learning to classify emails as spam or ham (legitimate). 
+
 ## Project Structure
 
 | Repository | Description |
@@ -8,7 +13,6 @@
 | [backend](https://github.com/g00405662FYP/SpamShield-Backend) | Flask API for classification, authentication, feedback, and Supabase integration |
 | [frontend](https://github.com/g00405662FYP/SpamShield-Frontend) | React.js frontend allowing users to upload, classify, and track emails |
 
----
 
 ## Tech Stack
 
@@ -18,7 +22,6 @@
 - **Authentication**: Supabase Auth (Email/Password verification)
 - **Deployment**: Google Cloud, Firebase Hosting
 
----
 
 ## Features
 
@@ -38,7 +41,6 @@
 5. Users can submit feedback if the classification was correct or incorrect.
 6. All classification and feedback data is stored in Supabase for further analysis.
 
----
 
 ## Authentication and Security
 
@@ -46,7 +48,6 @@
 - API requests secured with JWT authorization headers.
 - Frontend stores access tokens securely in localStorage.
 
----
 
 ## Deployment Summary
 
@@ -54,25 +55,11 @@
 - **Frontend** deployed using Firebase Hosting.
 - Supabase handles database hosting, storage, and authentication services.
 
----
-
-## System Architecture
-
-[User]
-  ↓
-[Frontend (React/Firebase Hosting)]
-  ↓
-[Backend API (Flask/Docker/Cloud Run)]
-  ↓
-[Supabase Database (PostgreSQL)]
-
----
 
 ## Future Improvements
 
 - Dynamic model retraining pipeline using real user feedback
 
----
 
 ## Acknowledgements
 
