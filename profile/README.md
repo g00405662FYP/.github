@@ -2,7 +2,7 @@
 
 [**Visit SpamShield**](https://spamshield-52b58.web.app/)
 
-SpamShield is a cloud-based spam detection platform designed to help users securely and efficiently identify malicious email messages.  
+SpamShield is a cloud-based spam detection platform designed to help users securely and efficiently identify malicious messages.  
 It uses machine learning to classify emails as spam or ham (legitimate). 
 
 ## Project Structure
